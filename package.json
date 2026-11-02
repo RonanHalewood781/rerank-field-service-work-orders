@@ -1,0 +1,13 @@
+{
+  "name": "rerank-field-service-work-orders",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/service.ts",
+    "test": "tsx src/rerank-work-orders.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "@types/node": "^22.10.2", "tsx": "^4.19.2", "typescript": "^5.6.3" }
+}
